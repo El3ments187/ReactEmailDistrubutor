@@ -1,5 +1,9 @@
 const express = require("express");
+const mongoose = require("mongoose");
+const keys = require("./config/keys");
 require("./services/passport");
+
+mongoose.connect(keys.mongoURI);
 
 const app = express();
 
@@ -13,3 +17,5 @@ app.listen(PORT);
 
 // Google Client ID : 922974926672-vb51toa3k2qambubaga40ahinfsphum3.apps.googleusercontent.com
 // Client Secret : _CjwXXaCNti36Sy37aia9RHz
+
+// KIMv76KCUYtx6Ple
