@@ -7,3 +7,5 @@ module.exports = function (app) {
     })
   );
 };
+
+// figure out how to add proxy info for ./API "/api/*"
