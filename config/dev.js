@@ -9,6 +9,8 @@ module.exports = {
 		"pk_test_51HpJVBEL4BqADkFmg7uwmkL4R1yyHA5LoQ3kLy499rvEUNo9QAIfvx5mhrePYUVgzlPuNimEHrNlPHENFyhOg9rs008y3UNk0B",
 	stripeSecretKey:
 		"sk_test_51HpJVBEL4BqADkFmgDaleG83VvFjw1Vt3VUa6vCwyrtApnft1lDepG4zt4eqwW9VYn5GSbtAYjMNjPQ6kKbgyHFv00S9fxhmP6",
+	sendGridKey:
+		"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",
 };
 
 //o8djZkKxVIQQBEwz
